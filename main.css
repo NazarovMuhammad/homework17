@@ -1,0 +1,586 @@
+.obwi nav {
+  z-index: 2;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.obwi nav .nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: bolder;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.obwi nav .nav1 a {
+  text-decoration: none;
+  color: black;
+}
+.obwi nav .nav1 .nav1t2 i {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.obwi nav .nav1 .nav1t3 {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+.obwi nav .nav1 .nav1t3 i {
+  padding-left: 5px;
+}
+.obwi nav .nav1 .nav1t3 p {
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: blueviolet;
+  font-size: 10px;
+  color: white;
+  width: 15px;
+  height: 15px;
+}
+.obwi nav .nav2 {
+  background: #F0F0F4;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.obwi nav .nav2 a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  padding-bottom: 40px;
+  width: 80%;
+  margin: auto;
+}
+header h4 {
+  color: #C4C4C4;
+  font-family: SF Pro Display;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+header .headerm {
+  gap: 120px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+header .headerm .headerm1 {
+  width: 48%;
+}
+header .headerm .headerm1 img {
+  width: 100%;
+  height: 300px;
+}
+header .headerm .headerm1 button {
+  background-color: #1C62CD;
+  padding: 5px 25px;
+  color: white;
+}
+header .headerm .headerm1 p {
+  font-family: Barlow;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 27%;
+  font-family: Proxima Nova;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2F3035;
+}
+header .headerm .headerm1 h3 {
+  font-family: Barlow;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2F3035;
+  margin-left: 22%;
+}
+header .headerm .headerm1 h5 {
+  font-family: SF Pro Display;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1C62CD;
+  margin-left: 18%;
+}
+header .headerm2 {
+  width: 48%;
+}
+header .headerm2 .hicon img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header .headerm2 .hicon .t1 {
+  color: #1C62CD;
+}
+header .headerm2 h1 {
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+}
+header .headerm2 h3 {
+  margin-top: 20px;
+  display: inline;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #1C62CD;
+  margin-bottom: 15px;
+}
+header .headerm2 .hh4 {
+  margin-left: 30px;
+  display: inline;
+}
+header .headerm2 .hm2t {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+header .headerm2 .hm2t p {
+  padding-bottom: 10px;
+}
+header .headerm2 button {
+  margin-top: 30px;
+  background-color: #1C62CD;
+  padding: 10px 40px;
+  color: white;
+}
+
+.main0 {
+  margin-top: 500px;
+  margin-bottom: 30px;
+  margin: auto;
+  margin-top: 30px;
+  background: #F0F0F4;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 80%;
+}
+.main0 a {
+  text-decoration: none;
+  color: black;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2F3035;
+}
+.main0 .l {
+  border-bottom: 2px solid #1C62CD;
+}
+
+main {
+  padding-top: 60px;
+  width: 80%;
+  margin: auto;
+}
+main form {
+  margin-bottom: 50px;
+}
+main label {
+  font-family: SF Pro Display;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2F3035;
+}
+main input {
+  margin-left: 30px;
+}
+main .o1 {
+  margin-left: 150px;
+}
+main h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: inline;
+}
+main .o2 {
+  margin-left: 60px;
+}
+main .o3 {
+  margin-left: 173px;
+}
+main .o4 {
+  margin-left: 105px;
+}
+main .mc {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+main .mc .mc1 {
+  width: 20%;
+}
+main .mc .mc1 p {
+  margin-bottom: 35px;
+  font-family: SF Pro Display;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2F3035;
+  opacity: 70%;
+}
+main .mc .mc2 {
+  width: 15%;
+}
+main .mc .mc2 p {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2F3035;
+  opacity: 70%;
+}
+main .mc .mc2 .mc2t1 {
+  display: flex;
+  justify-content: space-between;
+}
+main .mc .mc2 .mc2t2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+main .mc .mc3 {
+  padding-left: 10px;
+  width: 15%;
+}
+main .mc .mc3 p {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2F3035;
+  opacity: 70%;
+  padding-bottom: 40px;
+}
+main .mc .mc4 {
+  width: 5%;
+}
+main .mc .mc4 p {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2F3035;
+  opacity: 70%;
+  padding-bottom: 40px;
+}
+main .mc .mc5 {
+  width: 15%;
+  display: block;
+}
+main .mc .mc5 button {
+  padding: 5px 20px;
+  background-color: #1C62CD;
+  margin-left: 23px;
+  margin-bottom: 29px;
+  color: white;
+}
+
+.main1 {
+  width: 90%;
+  margin: auto;
+}
+.main1 h1 {
+  margin-left: 52px;
+}
+.main1 .m1i1 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 70%;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.main1 .m1mc {
+  padding-bottom: 100px;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.main1 .m1mc .m1mc1 {
+  width: 22%;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+}
+.main1 .m1mc .m1mc1 img {
+  width: 100%;
+  height: 150px;
+}
+.main1 .m1mc .m1mc1 .m1mc1t {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main1 .m1mc .m1mc1 button {
+  background-color: #1C62CD;
+  color: white;
+  padding: 2px 20px;
+}
+.main1 .m1mc .m1mc1 i {
+  font-size: large;
+  padding-top: 10px;
+}
+.main1 .m1mc .m1mc1 h3 {
+  margin: auto;
+  text-align: center;
+  color: #2F3035;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.main1 .m1mc .m1mc1 h5 {
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #2F3035;
+  padding-bottom: 10px;
+}
+.main1 .m1mc .m1mc1 a {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1C62CD;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+.main1 .m1mc .m1mc2 {
+  width: 22%;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+}
+.main1 .m1mc .m1mc2 img {
+  width: 100%;
+  height: 150px;
+}
+.main1 .m1mc .m1mc2 .m1mc1t {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main1 .m1mc .m1mc2 button {
+  z-index: -1;
+  background-color: #1C62CD;
+  color: white;
+  padding: 2px 20px;
+}
+.main1 .m1mc .m1mc2 i {
+  font-size: large;
+  padding-top: 10px;
+}
+.main1 .m1mc .m1mc2 h3 {
+  margin: auto;
+  text-align: center;
+  color: #2F3035;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.main1 .m1mc .m1mc2 h5 {
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #2F3035;
+  padding-bottom: 10px;
+}
+.main1 .m1mc .m1mc2 .k1 {
+  background-color: #1C62CD;
+  border-top-left-radius: 10px;
+  padding: 3px 10px;
+}
+.main1 .m1mc .m1mc3 {
+  width: 22%;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+}
+.main1 .m1mc .m1mc3 img {
+  width: 100%;
+  height: 150px;
+}
+.main1 .m1mc .m1mc3 .m1mc1t {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main1 .m1mc .m1mc3 button {
+  background-color: #1C62CD;
+  color: white;
+  padding: 1px 20px;
+}
+.main1 .m1mc .m1mc3 i {
+  font-size: large;
+  padding-top: 10px;
+  color: #1C62CD;
+}
+.main1 .m1mc .m1mc3 h3 {
+  margin: auto;
+  text-align: center;
+  color: #2F3035;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.main1 .m1mc .m1mc3 h5 {
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #2F3035;
+  padding-bottom: 20px;
+}
+.main1 .m1mc .m1mc3 a {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1C62CD;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+.main1 .m1mc .m1mc4 {
+  width: 22%;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+}
+.main1 .m1mc .m1mc4 img {
+  width: 100%;
+  height: 150px;
+}
+.main1 .m1mc .m1mc4 .m1mc1t {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main1 .m1mc .m1mc4 button {
+  z-index: -1;
+  background-color: #1C62CD;
+  color: white;
+  padding: 2px 20px;
+}
+.main1 .m1mc .m1mc4 i {
+  font-size: large;
+  padding-top: 10px;
+}
+.main1 .m1mc .m1mc4 h3 {
+  margin: auto;
+  text-align: center;
+  color: #2F3035;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.main1 .m1mc .m1mc4 h5 {
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #2F3035;
+  padding-bottom: 10px;
+}
+
+footer {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: #F0F0F4;
+  width: 100%;
+}
+footer .f {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+footer .f .f1 {
+  width: 35%;
+}
+footer .f .f1 input {
+  height: 28px;
+}
+footer .f .f1 button {
+  background-color: #1C62CD;
+  padding: 7px;
+}
+footer .f .f2 {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .f .f2 .p2 {
+  width: 38px;
+}
+footer .f .f2 .p1 {
+  width: 60%;
+}
+footer .f .f3 {
+  width: 17%;
+}
+footer .f .f3 i {
+  font-size: 30px;
+  margin-top: 60px;
+}/*# sourceMappingURL=main.css.map */

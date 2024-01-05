@@ -1,0 +1,703 @@
+
+ 
+@mixin hh6{
+      color: #C4C4C4;
+      font-family: SF Pro Display;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 20px;
+
+
+}
+ 
+
+@mixin nav2{
+      
+      background: #F0F0F4;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+}
+$blue: #1C62CD;
+
+
+@mixin nav1{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: bolder;
+      padding-top: 5px;
+      padding-bottom: 5px;
+}
+ $nicon: 30px;
+ 
+
+@mixin sabad{
+     margin-top: 10px;
+     text-align: center;
+      border-radius: 50px;
+      background-color: blueviolet;
+      font-size: 10px;
+      color: white;
+      width: 15px;
+      height: 15px;
+} 
+
+
+@mixin nav{
+      z-index: 2;
+      background-color:white;
+      position: sticky;
+      top: 0px;
+      margin: auto;
+      width: 80%;
+        margin-bottom: 30px;
+}
+
+
+
+
+.obwi{
+nav{
+      @include nav;
+
+      .nav1{
+            @include nav1;
+            
+            a{
+                  text-decoration: none;
+                  color: black;
+            }
+            
+            .nav1t2 i{
+                  margin-left: 10px;
+                font-size: $nicon;
+            }
+            .nav1t3{
+                  width: 10%;
+                  display: flex;
+                  justify-content: flex-end; 
+                  
+            }
+            .nav1t3 i{
+                  padding-left: 5px
+            }
+            .nav1t3 p{
+                    @include sabad();
+            }
+      }
+
+
+      .nav2{
+            @include nav2;
+             a{
+                   text-decoration: none;
+                   color: black;
+            }  
+                   
+      }
+}
+
+
+  
+
+
+}
+header{
+      padding-bottom: 40px;
+      
+      width: 80%;
+      margin: auto;
+       h4{
+          @include hh6();
+      }
+      .headerm{
+            gap: 120px;
+            display: flex;
+            justify-content: space-between;
+      width: 100%;
+      
+      
+      .headerm1{
+            width: 48%;
+            
+         
+      
+       img{
+            
+            width: 100%;
+            height: 300px;
+      }
+      button{
+            background-color: $blue;
+            padding: 5px 25px;
+            color: white;
+      }
+      p{
+            font-family: Barlow;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-left: 27%;
+            font-family: Proxima Nova;
+            font-size: 30px;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #2F3035;
+            
+
+      }
+      h3{
+            font-family: Barlow;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #2F3035;
+            margin-left: 22%;
+      }
+      h5{
+            font-family: SF Pro Display;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+             color: $blue;
+             margin-left: 18%;
+      }
+}
+}
+      .headerm2{
+            width: 48%;
+           
+            .hicon{
+               img{
+                  margin-left: 10px;
+                  margin-right: 10px;
+               }
+               .t1{
+                  color: $blue;
+               }
+            }
+            h1{
+                  font-family: SF Pro Display; 
+                  font-size: 20px;
+                  font-weight: bolder;
+                  text-align: left;
+            }
+            h3{
+                  margin-top:20px ;
+                  display: inline;
+                  padding-bottom: 5px;
+                  border-bottom:2px solid $blue ;
+                  margin-bottom: 15px;
+            }
+            .hh4{
+                  margin-left: 30px;
+                  display: inline;
+            }
+            .hm2t{
+                  margin-top: 20px;
+                  display: flex;
+                  justify-content: space-around;
+                  p{
+                        padding-bottom: 10px;
+                  }
+            }
+             button{
+                  margin-top: 30px;
+                  background-color: $blue;
+                  padding: 10px 40px;
+                  color: white;
+             }
+      }
+
+      
+      
+      
+}
+.main0{
+      margin-top: 500px;
+      margin-bottom: 30px;
+      margin: auto;
+      margin-top: 30px;
+      @include nav2;
+      width: 80%;
+      
+             a{
+                   text-decoration: none;
+                   color: black;
+                   font-family: SF Pro Display;
+                   font-size: 20px;
+                   font-weight: 400;
+                   line-height: 24px;
+                   letter-spacing: 0em;
+                   text-align: left;
+                   color: #2F3035;
+            }  
+            .l{
+                  
+                  border-bottom:2px solid $blue ;
+            }
+
+}
+main{
+      padding-top: 60px;
+      width: 80%;
+      margin: auto;
+      form{
+            margin-bottom: 50px;
+      }
+      label{
+            font-family: SF Pro Display;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #2F3035;
+
+      }
+      input{
+            margin-left: 30px;
+      }
+      .o1{
+            margin-left: 150px;
+      }
+      h3{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            display: inline;
+            
+      }
+      .o2{
+            margin-left: 60px;
+      }
+      .o3{
+            margin-left: 173px;
+      }
+      .o4{
+            margin-left: 105px;
+      }
+      .mc{
+            margin-bottom: 50px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .mc1{
+                  
+                  width: 20%;
+                  p{
+                        margin-bottom: 35px;
+                        font-family: SF Pro Display;
+                        font-size: 15px;
+                        font-weight: 900;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #2F3035;
+                        opacity: 70%;
+
+                  }
+            }
+            .mc2{ 
+                  
+                  width: 15%;
+                  p{
+                        font-family: SF Pro Display;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 19px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #2F3035;
+                        opacity: 70%;
+                  }
+                  .mc2t1{
+                        display: flex;
+                        justify-content: space-between;
+                  }
+                  .mc2t2{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 25px;
+                  }
+            }
+            .mc3{
+                  
+                  padding-left: 10px;
+                  width: 15%;
+                  p{
+                        font-family: SF Pro Display;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 19px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #2F3035;
+                        opacity: 70%;
+                        padding-bottom: 40px;
+                        
+                  }
+            }
+            .mc4{
+                  
+                  width: 5%;
+                  p{
+                         
+                        font-family: SF Pro Display;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 19px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #2F3035;
+                        opacity: 70%;
+                        padding-bottom: 40px;
+                  }
+
+            }
+            .mc5{ 
+
+                   
+                  width: 15%;
+                  display: block;
+                  button{
+                        padding: 5px 20px;
+                        background-color: $blue;
+                        margin-left: 23px;
+                        margin-bottom: 29px;
+                        color: white;
+                  }
+            }
+
+      }
+      
+}
+.main1{
+      width: 90%;
+      margin: auto;
+      
+      
+
+      h1{
+            margin-left:52px ;
+      }
+      .m1i1{
+            padding-top: 20px;
+            padding-bottom: 40px;
+            width: 70%;
+            margin: 50px;
+            display: flex;
+            justify-content: space-between;
+      }
+      .m1mc{
+            padding-bottom: 100px;
+            display: flex;
+            width: 90%;
+            margin: auto;
+            justify-content: space-between;
+            .m1mc1{
+                  width: 22%;
+                  background-color:white;
+                   border: 1px solid #E0E0E0;
+                   img{
+                        width: 100%;
+                        height: 150px;
+                   }
+                   .m1mc1t{
+                        
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                   }
+
+                        button{
+                              background-color: $blue;
+                              color: white;
+                              padding: 2px 20px;
+      
+                        }
+                        i{
+                              font-size: large;
+                              padding-top: 10px;
+                        }
+                        h3{
+                              margin: auto;
+                              text-align: center;
+                              color: #2F3035;
+                              font-family: SF Pro Display;
+                              font-size: 20px;
+                              font-weight: 400;
+                              line-height: 24px;
+                              letter-spacing: 0em;
+                              text-align: center;
+                              padding-bottom: 10px;
+                        }
+                        h5{
+                              font-family: SF Pro Display;
+                              font-size: 18px;
+                              font-weight: 700;
+                              line-height: 21px;
+                              letter-spacing: 0em;
+                              text-align: center;
+                              color: #2F3035;
+                              padding-bottom: 10px;
+                        }
+                        a{
+                              font-family: SF Pro Display;
+                              font-size: 16px;
+                              font-weight: 400;
+                              line-height: 19px;
+                              letter-spacing: 0em;
+                              text-align: left;
+                              color: #1C62CD;
+                              text-decoration: none;
+                              padding-bottom: 10px;
+                        }
+      
+            }
+
+            .m1mc2{
+                  width: 22%;
+                  background-color:white;
+                   border: 1px solid #E0E0E0;
+                   img{
+                        width: 100%;
+                        height: 150px;
+                   }
+                   .m1mc1t{
+                        
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                   }
+
+                        button{
+                              z-index: -1;
+                              background-color: $blue;
+                              color: white;
+                              padding: 2px 20px;
+      
+                        }
+                        i{
+                              font-size: large;
+                              padding-top: 10px;
+                        }
+                        h3{
+                              margin: auto;
+                              text-align: center;
+                              color: #2F3035;
+                              font-family: SF Pro Display;
+                              font-size: 20px;
+                              font-weight: 400;
+                              line-height: 24px;
+                              letter-spacing: 0em;
+                              text-align: center;
+                              padding-bottom: 10px;
+                        }
+                        h5{
+                              font-family: SF Pro Display;
+                              font-size: 18px;
+                              font-weight: 700;
+                              line-height: 21px;
+                              letter-spacing: 0em;
+                              text-align: center;
+                              color: #2F3035;
+                              padding-bottom: 10px;
+                        }
+                        .k1{
+                              background-color: $blue;
+                              border-top-left-radius: 10px;
+                              padding: 3px 10px;
+                        }
+
+                        
+
+
+                        
+
+            }
+
+            .m1mc3{
+                  width: 22%;
+                  background-color:white;
+                   border: 1px solid #E0E0E0;
+                   img{
+                        width: 100%;
+                        height: 150px;
+                   }
+                   .m1mc1t{
+                        
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                   }
+
+                        button{
+                              
+                              background-color: $blue;
+                              color: white;
+                              padding: 1px 20px;
+      
+                        }
+                        i{
+                              font-size: large;
+                              padding-top: 10px;
+                              color: $blue;
+                        }
+                        h3{
+                              margin: auto;
+                              text-align: center;
+                              color: #2F3035;
+                              font-family: SF Pro Display;
+                              font-size: 20px;
+                              font-weight: 400;
+                              line-height: 24px;
+                              letter-spacing: 0em;
+                              text-align: center;
+                              padding-bottom: 20px;
+                        }
+                        h5{
+                              font-family: SF Pro Display;
+                              font-size: 18px;
+                              font-weight: 700;
+                              line-height: 21px;
+                              letter-spacing: 0em;
+                              text-align: center;
+                              color: #2F3035;
+                              padding-bottom: 20px;
+                        }
+                        a{
+                              font-family: SF Pro Display;
+                              font-size: 16px;
+                              font-weight: 400;
+                              line-height: 19px;
+                              letter-spacing: 0em;
+                              text-align: left;
+                              color: #1C62CD;
+                              text-decoration: none;
+                              padding-bottom: 20px;
+                        }
+      
+            }
+         
+
+            .m1mc4{
+                  width: 22%;
+                  background-color:white;
+                   border: 1px solid #E0E0E0;
+                   img{
+                        width: 100%;
+                        height: 150px;
+                   }
+                   .m1mc1t{
+                        
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                   }
+
+                        button{
+                              z-index: -1;
+                              background-color: $blue;
+                              color: white;
+                              padding: 2px 20px;
+      
+                        }
+                        i{
+                              font-size: large;
+                              padding-top: 10px;
+                        }
+                        h3{
+                              margin: auto;
+                              text-align: center;
+                              color: #2F3035;
+                              font-family: SF Pro Display;
+                              font-size: 20px;
+                              font-weight: 400;
+                              line-height: 24px;
+                              letter-spacing: 0em;
+                              text-align: center;
+                              padding-bottom: 10px;
+                        }
+                        h5{
+                              font-family: SF Pro Display;
+                              font-size: 18px;
+                              font-weight: 700;
+                              line-height: 21px;
+                              letter-spacing: 0em;
+                              text-align: center;
+                              color: #2F3035;
+                              padding-bottom: 10px;
+                        }
+                        
+
+                        
+
+
+                        
+
+            }
+
+      }
+
+}
+
+footer{
+      padding-top: 70px;
+      padding-bottom: 30px;
+      background: #F0F0F4;
+      width: 100%;
+      .f{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            .f1{  
+                  width: 35%;
+                  input{
+                        height: 28px;
+                  }
+                  button{
+                        background-color: $blue;
+                        padding: 7px ;
+                  }
+            }
+            .f2{
+                  
+                  width: 40%;
+                  display: flex;
+                  justify-content: space-between;
+                  .p2{
+                        width: 38px;
+                  }
+                  .p1{
+                        width: 60%;
+                  }
+
+            }
+            .f3{
+                  
+                  width: 17%;
+                  i{
+                        font-size: 30px;
+                        margin-top: 60px;
+                  }
+
+            }
+
+      }
+
+}

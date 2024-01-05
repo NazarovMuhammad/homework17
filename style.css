@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+}
+
+.obwi{
+    width: 100%;
+}
+@media (max-width:320px) {
+    
+        nav{
+             flex-wrap: wrap; 
+            width: 100%;
+             position: static;
+              
+        }
+        .nav1{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .nav2{
+             flex-wrap: wrap;
+            width: 100%; 
+            display: none;
+        }
+        header{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .main0{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .main1{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        main{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        footer{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+    
+}
+
